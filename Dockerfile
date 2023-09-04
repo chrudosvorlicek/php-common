@@ -1,4 +1,4 @@
-FROM php:8.2.7-cli-bullseye
+FROM php:8.2.9-cli-bullseye
 
 COPY --from=mlocati/php-extension-installer /usr/bin/install-php-extensions /usr/local/bin/
 COPY --from=liteacz/whalesome:v0.0.1-alpha.1 /opt/whalesome /opt/whalesome
