@@ -10,7 +10,7 @@ jobs:
   build:
     strategy:
       matrix:
-        distro: ["debian-bullseye", "debian-bookworm"]
+        distro: ["debian-bullseye"]
     runs-on: ubuntu-latest
     steps:
       -
