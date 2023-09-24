@@ -22,7 +22,5 @@ echo "Installing shared dependencies" \
   && rm -rf /var/cache/apt/* \
   && wget -O "/usr/local/bin/local-php-security-checker" "https://github.com/fabpot/local-php-security-checker/releases/download/v2.0.4/local-php-security-checker_2.0.4_linux_amd64" \
   && chmod a+x /usr/local/bin/local-php-security-checker \
-  && wget -O "/usr/local/bin/phpdoc" "https://phpdoc.org/phpDocumentor.phar" \
-  && chmod a+x /usr/local/bin/phpdoc \
   && pip3 install supervisor
 
