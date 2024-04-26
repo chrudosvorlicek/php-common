@@ -1,4 +1,4 @@
-FROM php:8.2.10-cli-bookworm
+FROM php:8.2.18-cli-bookworm
 
 COPY --from=mlocati/php-extension-installer /usr/bin/install-php-extensions /usr/local/bin/
 COPY --from=liteacz/whalesome:v0.0.1-alpha.1 /opt/whalesome /opt/whalesome
